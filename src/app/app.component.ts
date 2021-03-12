@@ -43,7 +43,7 @@ export class AppComponent {
   tableList: TableListInterface[] = [];
   // config the counts which is needed to export
   // listNeededArr = [20000, 50000, 100000, 200000];
-  listNeededArr = [];
+  listNeededArr = [4000000];
   tableHeader = [
     {
       title: '文件大小',
@@ -55,7 +55,7 @@ export class AppComponent {
     },
     {
       title: '总条数',
-      key: 'count'
+      key: 'total'
     },
     {
       title: '读取时间',
@@ -190,6 +190,7 @@ export class AppComponent {
           this.importUserList.forEach((list: any) => {
             total += list.length;
           });
+          console.log(total);
           this.sizeM = this.fileSize(file, 'm');
           this.sizeKb = this.fileSize(file, 'kb');
           this.tableList.unshift({
