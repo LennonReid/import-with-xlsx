@@ -5,9 +5,10 @@
         How to use：
       </div>
       <div class="row">
-
         <ul>
-          <li>1.config the listNeededArr:number[] ，reload the page，download ，eg:listNeededArr = [20000, 50000, 100000, 200000]
+          <li>
+            1.config the listNeededArr:number[] ，reload the page，download
+            ，eg:listNeededArr = [20000, 50000, 100000, 200000]
           </li>
           <li>2.Selected the file that downloaded，click upload</li>
           <li>3.Below is the result</li>
@@ -18,12 +19,24 @@
   <div class="row action-box">
     <div class="fileUpload btn btn-primary">
       <span>Upload(Mutiple)</span>
-      <input type="file" class="upload" [accept]="acceptFile" multiple name="uploadfile" id="uploadfile"
-             (change)="fileChange($event.target)"/>
+      <input
+        type="file"
+        class="upload"
+        [accept]="acceptFile"
+        multiple
+        name="uploadfile"
+        id="uploadfile"
+        (change)="fileChange($event.target)"
+      />
     </div>
 
     <button class="btn btn-warning" (click)="clear()">clear</button>
-    <button class="btn btn-second ml-12" (click)="changeToNeededArray(tableList)">export</button>
+    <button
+      class="btn btn-second ml-12"
+      (click)="changeToNeededArray(tableList)"
+    >
+      export
+    </button>
   </div>
   <div class="time row">
     <div class="text">
@@ -44,19 +57,18 @@
   </div>
   <div class="column">
     <div class="row table">
-
       <table>
         <thead>
-        <th *ngFor="let header of tableHeader">{{header.title}}</th>
+          <th *ngFor="let header of tableHeader">{{header.title}}</th>
         </thead>
         <tbody>
-        <tr *ngFor="let rowData of tableList">
-          <td *ngFor="let headerKey of tableHeader">{{rowData[headerKey.key]}}</td>
-        </tr>
+          <tr *ngFor="let rowData of tableList">
+            <td *ngFor="let headerKey of tableHeader">
+              {{rowData[headerKey.key]}}
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
-
   </div>
-
 </div>
