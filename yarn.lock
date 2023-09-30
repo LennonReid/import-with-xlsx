@@ -136,12 +136,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@angular/cdk@^8.2.3":
-  version "8.2.3"
-  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-8.2.3.tgz#16b96ffa935cbf5a646757ecaf2b19c434678f72"
-  integrity sha512-ZwO5Sn720RA2YvBqud0JAHkZXjmjxM0yNzCO8RVtRE9i8Gl26Wk0j0nQeJkVm4zwv2QO8MwbKUKGTMt8evsokA==
+"@angular/cdk@^13.1.3":
+  version "13.3.9"
+  resolved "https://registry.npmjs.org/@angular/cdk/-/cdk-13.3.9.tgz#a177196e872e29be3f84d3a50f778d361c689ff7"
+  integrity sha512-XCuCbeuxWFyo3EYrgEYx7eHzwl76vaWcxtWXl00ka8d+WAOtMQ6Tf1D98ybYT5uwF9889fFpXAPw98mVnlo3MA==
   dependencies:
-    tslib "^1.7.1"
+    tslib "^2.3.0"
   optionalDependencies:
     parse5 "^5.0.0"
 
@@ -5631,7 +5631,7 @@ klona@^2.0.3:
   resolved "https://registry.npmjs.org/klona/-/klona-2.0.6.tgz#85bffbf819c03b2f53270412420a4555ef882e22"
   integrity sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==
 
-lazy-get-decorator@^2.0.0:
+lazy-get-decorator@^2.2.0:
   version "2.2.1"
   resolved "https://registry.npmjs.org/lazy-get-decorator/-/lazy-get-decorator-2.2.1.tgz#f8f69111974a60e38bda7293f1a078b80eea3aca"
   integrity sha512-Z5uxqhXT+h3s1az3JaEAi9eh8+p4pIUE3qJGgfkx9zIEiA3bIpg4ChxODLwCpFr9S+PDEJ/2Q1UaMqy8RdVCxg==
@@ -6241,14 +6241,14 @@ next-tick@^1.1.0:
   resolved "https://registry.npmjs.org/next-tick/-/next-tick-1.1.0.tgz#1836ee30ad56d67ef281b22bd199f709449b35eb"
   integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
 
-ngforage@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.npmjs.org/ngforage/-/ngforage-6.0.0.tgz#874630cebfb76abdd0c05869da7a5bf1cd5692b9"
-  integrity sha512-w2/WcGJqdJlzPXLrtZwKX9Cdo1Vj3315GhPJV5wgiWNjfcV6y4YA2CpTLk5zJw0N9CkWCKNhy+E/VzWdPnFHcQ==
+ngforage@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/ngforage/-/ngforage-7.0.0.tgz#11fa3f5d051da0c5d13156daf7e4e11ba7bf2449"
+  integrity sha512-zJbK6M//AfHV7Uwn2q+KPsWImZAWoNzhO75von4w8Vjs8UQR8BWhmqQZbv/Dj4UUeKZvdBo9f9GWm1JrMNfI0g==
   dependencies:
-    "@angular/cdk" "^8.2.3"
-    lazy-get-decorator "^2.0.0"
-    tslib "^1.13.0"
+    "@angular/cdk" "^13.1.3"
+    lazy-get-decorator "^2.2.0"
+    tslib "^2.0.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -8976,12 +8976,12 @@ tslib@2.0.1:
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.0.1.tgz#410eb0d113e5b6356490eec749603725b021b43e"
   integrity sha512-SgIkNheinmEBgx1IUNirK0TUD4X9yjjBRTqqjggWCU3pUEqIk3/Uwl3yRixYKT6WjQuGiwDv4NomL3wqRCj+CQ==
 
-tslib@^1.10.0, tslib@^1.13.0, tslib@^1.7.1, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.13.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0:
+tslib@^2.0.0, tslib@^2.3.0:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
